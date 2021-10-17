@@ -1,0 +1,696 @@
+<button id="btn">click</button>
+
+<style>
+
+    #btn {
+
+        background-color: #0bca3b;
+
+  border: none;
+
+  color: white;
+
+  padding: 17px 35px;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+    }
+
+    #btn:hover {
+
+        background-color: #ca0b0b;
+
+    }
+
+    #btn:active{
+
+        background-color: rgb(61, 61, 226);
+
+    }
+
+</style>
+
+  
+
+------------------------------------------------------------------------------------------------------
+<button id="invisbtn" onclick="invis()">you can only click once</button>
+
+<script>
+
+function invis (){
+
+    document.getElementById('invisbtn').style.visibility = 'hidden';
+
+}
+
+</script>
+
+<style>
+
+    #invisbtn{
+
+ background-color: #375670;
+
+  border: none;
+
+  color: white;
+
+  padding: 17px 35px;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+    }
+
+</style>
+------------------------------------------------------------------------------------------------------
+<button id="hoverbtn">click</button>
+
+<style>
+
+    #hoverbtn {
+
+ background-color: #5f9fd3;
+
+  border: none;
+
+  color: white;
+
+  padding: 17px 35px;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+    }
+
+    #hoverbtn:hover {
+
+        background-color: #e62c2c;
+
+        box-shadow: 0 14px 17px 0 rgb(160, 150, 150),0 17px 50px 0 rgb(158, 146, 146);
+
+        
+
+    }
+
+</style>
+
+------------------------------------------------------------------------------------------------------
+<button id="btn">click</button>
+
+<style>
+
+    #btn {
+
+        background-color: #ca0b14;
+
+  border: none;
+
+  color: white;
+
+  padding: 17px 35px;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+    }
+
+   
+
+    #btn:active{
+
+        background-color: rgb(61, 61, 226);
+
+    }
+
+</style>
+
+  ------------------------------------------------------------------------------------------------------
+  <button id="clickbtn">click</button>
+
+    <style>
+
+        #clickbtn {
+
+          cursor: pointer;
+
+          padding: 25px 35px;
+
+          font-size: 30px;
+
+          text-align: center;
+
+          outline: none;
+
+          background-color: #546beb;
+
+          box-shadow: 0 9px rgb(95, 91, 91);
+
+          color: #fff;
+
+        }
+
+        
+
+        #clickbtn:hover {background-color: #a83601}
+
+        
+
+        #clickbtn:active {
+
+          background-color: #2a4cbe;
+
+          box-shadow: 0 5px grey;
+
+          transform: translateY(3px);
+
+        }
+
+        </style>
+
+------------------------------------------------------------------------------------------------------
+<button id="btn" onclick="Click()">click</button>
+
+<style>
+
+    #btn{
+
+    background-color: #24c91e;
+
+  border: none;
+
+  color: white;
+
+  padding: 17px 35px;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+    }
+
+</style>
+
+<script>
+
+    //funcktio joka vaihtaa tekstin
+
+function Click() 
+
+{
+
+  document.getElementById("btn").innerHTML = "clicked!";
+
+}
+
+</script>
+------------------------------------------------------------------------------------------------------
+<button id="btn">click</button>
+
+<style>
+
+    #btn {
+
+        background-color: #375670;
+
+  border: none;
+
+  color: white;
+
+  padding: 17px 35px;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+    }
+
+    #btn:hover {
+
+        visibility: hidden;
+
+    }
+
+</style>
+
+  ------------------------------------------------------------------------------------------------------
+  <button id="clicks" onclick="counter()">click</button>
+
+<style>
+
+    #clicks{
+
+     background-color: #2e047c;
+
+  border: none;
+
+  color: white;
+
+  padding: 17px 35px;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+    }
+
+</style>
+
+<script>
+
+   let clickCounter =0;
+
+function counter() 
+
+{
+
+   
+
+    clickCounter = clickCounter + 1;
+
+  document.getElementById("clicks").innerHTML = clickCounter;
+
+}
+
+
+
+</script>
+------------------------------------------------------------------------------------------------------
+<input type="file" id="fileinput">
+
+------------------------------------------------------------------------------------------------------
+<input placeholder="password" type="password" id="psw" name="psw" >
+
+<style>
+
+    #psw{
+
+  width: 20%;
+
+  padding: 13px 35px;
+
+    }
+
+</style>
+------------------------------------------------------------------------------------------------------
+<input placeholder="email" type="email" id="email" name="email" >
+
+<style>
+
+    #email{
+
+  width: 20%;
+
+  padding: 13px 35px;
+
+    }
+
+</style>
+------------------------------------------------------------------------------------------------------
+<input type="datetime-local" id="birthday" >
+
+<style>
+
+  #birthday{
+
+width: 20%;
+
+padding: 13px 35px;
+
+  }
+
+</style>
+------------------------------------------------------------------------------------------------------
+<input type="range" id="range" min="1" max="50" value="1">
+------------------------------------------------------------------------------------------------------
+<input type="checkbox"">
+
+<input type="radio">
+------------------------------------------------------------------------------------------------------
+<input type="color">
+------------------------------------------------------------------------------------------------------
+<textarea>text</textarea>
+------------------------------------------------------------------------------------------------------
+<select id="select">
+
+    <option>Usa</option>
+
+    <option>Finland</option>
+
+    <option>Japan</option>
+
+  </select>
+
+  <style>
+
+      #select{
+
+       width: 20%;
+
+   padding: 13px 35px;
+
+      }
+
+  </style>
+  ------------------------------------------------------------------------------------------------------
+  <h1 id="time" onclick="whatTimeIsIt()">what time is it?</h1>
+
+<script>
+
+    function whatTimeIsIt (){
+
+let clock = new Date();
+
+document.getElementById("time").innerHTML = clock;
+
+    }
+
+</script>
+------------------------------------------------------------------------------------------------------
+<div id="linearGradient">
+
+    <h1>linear gradient</h1>
+
+</div>
+
+<style>
+
+  body{
+
+      background: linear-gradient(to right , rgb(35, 35, 207), rgb(94, 199, 94));
+
+    }
+
+</style>
+------------------------------------------------------------------------------------------------------
+<canvas id="canvas"></canvas>
+
+<style>
+
+#canvas{
+
+    background-color: aqua;
+
+}
+
+</style>
+------------------------------------------------------------------------------------------------------
+<input id="input">
+
+<button id="btn" onclick="text()">send</button>
+
+<h2 id="text"></h2>
+
+<script>
+
+    function text (){
+
+      let htmlInput = document.getElementById("input").value;
+
+        document.getElementById("text").innerHTML = htmlInput;
+
+    }
+
+</script>
+
+<style>
+
+  #input{
+
+   width: 20%;
+
+   padding: 13px 35px;
+
+  }
+
+  #btn {
+
+  background-color: #376e70;
+
+  border: none;
+
+  color: white;
+
+  padding: 13px 35px;
+
+  text-align: center;
+
+  font-size: 18px;
+
+  cursor: pointer;
+
+  }
+
+  
+
+</style>
+------------------------------------------------------------------------------------------------------
+<div id="circle"></div>
+
+<br><br>
+
+<div id="triangle"></div>
+
+<br><br>
+
+<div id="square"></div>
+
+<style>
+
+    #circle {
+
+    background: blue;
+
+    border-radius: 50%;
+
+    width: 70px;
+
+    height: 70px;
+
+}
+
+    #triangle{
+
+      width: 0;
+
+      height: 0;
+
+      border-left: 50px solid transparent;
+
+      border-right: 50px solid transparent;
+
+      border-bottom: 100px solid blue;
+
+    }
+
+    #square{
+
+  width: 70px;
+
+  height: 70px;
+
+  background: blue;
+
+    }
+
+</style>
+------------------------------------------------------------------------------------------------------
+<a href="mailto: blank@blank.com">send email</a>
+
+<style>
+
+  a{
+
+    color: blue;
+
+    font-size: large;
+
+  }
+
+  a:hover{
+
+    color: rgb(58, 58, 168);
+
+  }
+
+  a:active{
+
+    color: rgb(255, 0, 0);
+
+  }
+
+</style>
+
+------------------------------------------------------------------------------------------------------
+<div id="done">
+
+    <form>
+    
+    <input type="email" id="email" placeholder="email">
+    
+    <br>
+    
+    <br>
+    
+    <input type="password" id="psw" placeholder="password">
+    
+    <br>
+    
+    <br>
+    
+    <button id="btn">sign up!</button>
+    
+    </form>
+    
+    </div>
+    
+    <style>
+    
+        #email{
+    
+       width: 20%;
+    
+       padding: 13px 35px;
+    
+        }
+    
+        #psw{
+    
+       width: 20%;
+    
+       padding: 13px 35px;
+    
+        }
+    
+        #done{
+    
+            text-align: center;
+    
+        }
+    
+        #btn{
+    
+      background-color: #21d430;
+    
+      border: none;
+    
+      color: white;
+    
+      padding: 15px 35px;
+    
+      text-align: center;
+    
+      font-size: 18px;
+    
+      cursor: pointer;
+    
+        }
+    
+        #btn:hover{
+    
+            background-color: #58dd63;
+    
+        }
+    
+    </style>
+    ------------------------------------------------------------------------------------------------------
+    <div id="done">
+
+        <form>
+   
+       <input  id="username" placeholder="username">
+   
+       <br>
+   
+       <br>
+   
+       <input type="email" id="email" placeholder="email">
+   
+       <br>
+   
+       <br>
+   
+       <input type="password" id="psw" placeholder="password">
+   
+       <br>
+   
+       <br>
+   
+       <input type="password" id="psw" placeholder="password">
+   
+       <br>
+   
+       <br>
+   
+       <button id="btn">sign up!</button>
+   
+   </form>
+   
+       </div>
+   
+       <style>
+   
+          
+   
+           input{
+   
+      width: 20%;
+   
+      padding: 13px 35px;
+   
+           }
+   
+           #done{
+   
+               text-align: center;
+   
+           }
+   
+           #btn{
+   
+         width: 20%;
+   
+         background-color: #2133d4;
+   
+         border: none;
+   
+         color: white;
+   
+         padding: 15px 35px;
+   
+         text-align: center;
+   
+         font-size: 18px;
+   
+         cursor: pointer;
+   
+           }
+   
+           #btn:hover{
+   
+               background-color: #585add;
+   
+           }
+   
+       </style>
+   
+   
